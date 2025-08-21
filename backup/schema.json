@@ -1,0 +1,661 @@
+{
+  "daily": [
+    {
+    "description": "account_id",
+    "name": "account_id",
+    "mode": "NULLABLE",
+    "type": "STRING"
+    },
+    {
+    "description": "username",
+    "name": "username",
+    "mode": "NULLABLE",
+    "type": "STRING"
+    },
+    {
+    "description": "page_messages_new_conversations_unique",
+    "name": "page_messages_new_conversations_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_video_views",
+    "name": "page_video_views",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_views_total",
+    "name": "page_views_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_total_actions",
+    "name": "page_total_actions",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_daily_follows_unique",
+    "name": "page_daily_follows_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions",
+    "name": "page_impressions",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_unique",
+    "name": "page_impressions_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_paid",
+    "name": "page_impressions_paid",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_paid_unique",
+    "name": "page_impressions_paid_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_organic",
+    "name": "page_impressions_organic",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_organic_unique",
+    "name": "page_impressions_organic_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_viral",
+    "name": "page_impressions_viral",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_impressions_viral_unique",
+    "name": "page_impressions_viral_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_engaged_users",
+    "name": "page_engaged_users",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_post_engagements",
+    "name": "page_post_engagements",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_consumptions",
+    "name": "page_consumptions",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_consumptions_unique",
+    "name": "page_consumptions_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_places_checkin_total",
+    "name": "page_places_checkin_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_places_checkin_total_unique",
+    "name": "page_places_checkin_total_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_places_checkin_mobile",
+    "name": "page_places_checkin_mobile",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_places_checkin_mobile_unique",
+    "name": "page_places_checkin_mobile_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_negative_feedback",
+    "name": "page_negative_feedback",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_negative_feedback_unique",
+    "name": "page_negative_feedback_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions",
+    "name": "page_posts_impressions",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_unique",
+    "name": "page_posts_impressions_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_paid",
+    "name": "page_posts_impressions_paid",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_paid_unique",
+    "name": "page_posts_impressions_paid_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_organic",
+    "name": "page_posts_impressions_organic",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_organic_unique",
+    "name": "page_posts_impressions_organic_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_viral",
+    "name": "page_posts_impressions_viral",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_viral_unique",
+    "name": "page_posts_impressions_viral_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_nonviral",
+    "name": "page_posts_impressions_nonviral",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_posts_impressions_nonviral_unique",
+    "name": "page_posts_impressions_nonviral_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_actions_post_reactions_like_total",
+    "name": "page_actions_post_reactions_like_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_actions_post_reactions_love_total",
+    "name": "page_actions_post_reactions_love_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_actions_post_reactions_wow_total",
+    "name": "page_actions_post_reactions_wow_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_actions_post_reactions_haha_total",
+    "name": "page_actions_post_reactions_haha_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_actions_post_reactions_sorry_total",
+    "name": "page_actions_post_reactions_sorry_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "page_actions_post_reactions_anger_total",
+    "name": "page_actions_post_reactions_anger_total",    
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    }
+  ],
+  "lifetime": [
+    {
+      "description": "Account Id.",
+      "mode": "NULLABLE",
+      "name": "account_id",
+      "type": "STRING"
+    },  
+    {
+      "description": "Information about the Page. Can be read with Page Public Content Access or Page Public Metadata Access. This value maps to the Description setting in the Edit Page Info user interface. Limit of 100 characters.",
+      "mode": "NULLABLE",
+      "name": "about",
+      "type": "STRING"
+    },
+    {
+      "description": "The alias of the Page. For example, for www.facebook.com/platform the username is 'platform'",
+      "mode": "NULLABLE",
+      "name": "username",
+      "type": "STRING"
+    },
+    {
+      "description": "The Page's Facebook URL.",
+      "mode": "NULLABLE",
+      "name": "link",
+      "type": "STRING"
+    },
+    {
+      "description": "The number of users who like the Page. For Global Pages this is the count for all Pages across the brand. Can be read with Page Public Content Access or Page Public Metadata Access. For New Page Experience Pages, this field will return followers_count.",
+      "mode": "NULLABLE",
+      "name": "fan_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "Number of page followers.",
+      "mode": "NULLABLE",
+      "name": "followers_count",
+      "type": "STRING"
+    },
+    {
+      "description": "The social sentence and like count information for this Page. This is the same info used for the like button.",
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "count",
+          "type": "INTEGER"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "social_sentence",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "engagement",
+      "type": "RECORD"
+    },
+    {
+      "description": "Number of checkins at a place represented by a Page.",
+      "mode": "NULLABLE",
+      "name": "checkins",
+      "type": "INTEGER"
+    },
+    {
+      "description": "The number of people who have liked the Page, since the last login. Only visible to a Page admin. Can be read with Page Public Content Access or Page Public Metadata Access.",
+      "mode": "NULLABLE",
+      "name": "new_like_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "The number of people talking about this Page.",
+      "mode": "NULLABLE",
+      "name": "talking_about_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "The number of visits to this Page's location. If the Page setting Show map, check-ins and star ratings on the Page (under Page Settings > Page Info > Address) is disabled, then this value will also be disabled. Can be read with Page Public Content Access or Page Public Metadata Access.",
+      "mode": "NULLABLE",
+      "name": "were_here_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "Unread message count for the Page. Only visible to a page admin.",
+      "mode": "NULLABLE",
+      "name": "unread_message_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "Number of unread notifications. Only visible to a page admin.",
+      "mode": "NULLABLE",
+      "name": "unread_notif_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "Unseen message count for the Page. Only visible to a page admin.",
+      "mode": "NULLABLE",
+      "name": "unseen_message_count",
+      "type": "INTEGER"
+    },
+    {
+      "description": "Represents a collection of Recommendations for a Page.",
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "created_time",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "recommendation_type",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "review_text",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "ratings",
+      "type": "RECORD"
+    }
+  ],
+  "post": [
+    {
+      "description": "Post ID.",
+      "mode": "NULLABLE",
+      "name": "id",
+      "type": "STRING"
+    },
+    {
+      "description": "Action links.",
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "name",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "link",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "actions",
+      "type": "RECORD"
+    },    
+    {
+      "description": "Full size picture from attachment.",
+      "mode": "NULLABLE",
+      "name": "full_picture",
+      "type": "STRING"
+    },
+    {
+      "description": "The ID of the user, page, group, or event that published the post.",
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "name",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "id",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "from",
+      "type": "RECORD"
+    },     
+    {
+      "description": "The message written in the post.",
+      "mode": "NULLABLE",
+      "name": "message",
+      "type": "STRING"
+    },
+    {        
+    "description": "post_impressions",
+    "name": "post_impressions",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_unique",
+    "name": "post_impressions_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_paid",
+    "name": "post_impressions_paid",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_paid_unique",
+    "name": "post_impressions_paid_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_fan",
+    "name": "post_impressions_fan",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_fan_unique",
+    "name": "post_impressions_fan_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_fan_paid",
+    "name": "post_impressions_fan_paid",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_fan_paid_unique",
+    "name": "post_impressions_fan_paid_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_organic",
+    "name": "post_impressions_organic",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_organic_unique",
+    "name": "post_impressions_organic_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_viral",
+    "name": "post_impressions_viral",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_viral_unique",
+    "name": "post_impressions_viral_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_nonviral",
+    "name": "post_impressions_nonviral",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_impressions_nonviral_unique",
+    "name": "post_impressions_nonviral_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_engaged_users",
+    "name": "post_engaged_users",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_negative_feedback",
+    "name": "post_negative_feedback",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_negative_feedback_unique",
+    "name": "post_negative_feedback_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_engaged_fan",
+    "name": "post_engaged_fan",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_clicks",
+    "name": "post_clicks",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_clicks_unique",
+    "name": "post_clicks_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_reactions_like_total",
+    "name": "post_reactions_like_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_reactions_love_total",
+    "name": "post_reactions_love_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_reactions_wow_total",
+    "name": "post_reactions_wow_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_reactions_haha_total",
+    "name": "post_reactions_haha_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_reactions_sorry_total",
+    "name": "post_reactions_sorry_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_reactions_anger_total",
+    "name": "post_reactions_anger_total",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_avg_time_watched",
+    "name": "post_video_avg_time_watched",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_complete_views_organic",
+    "name": "post_video_complete_views_organic",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_complete_views_organic_unique",
+    "name": "post_video_complete_views_organic_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_complete_views_paid",
+    "name": "post_video_complete_views_paid",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_complete_views_paid_unique",
+    "name": "post_video_complete_views_paid_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_views_organic",
+    "name": "post_video_views_organic",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_views_organic_unique",
+    "name": "post_video_views_organic_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_views_paid",
+    "name": "post_video_views_paid",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_views_paid_unique",
+    "name": "post_video_views_paid_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_length",
+    "name": "post_video_length",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_views",
+    "name": "post_video_views",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "post_video_views_unique",
+    "name": "post_video_views_unique",
+    "mode": "NULLABLE",
+    "type": "INTEGER"
+    },
+    {
+    "description": "Created date of post.",
+    "name": "created_date",
+    "mode": "NULLABLE",
+    "type": "TIMESTAMP"
+    }
+  ]
+}
