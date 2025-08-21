@@ -3,7 +3,7 @@ Facebook Posts endpoints.
 """
 
 from typing import List, Optional
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from fastapi import APIRouter, Depends, HTTPException, status, Query
 from app.models.user import User
 from app.models.facebook_post import FacebookPost, FacebookPostResponse, PostType
