@@ -214,16 +214,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - React and FastAPI communities for excellent frameworks
 - Contributors and testers who helped shape this platform
 
-## 📞 Support
-
-- 📧 Email: support@facebook-analytics-platform.com
-- 💬 Discord: [Join our community](https://discord.gg/facebook-analytics)
-- 📖 Documentation: [Full docs](https://docs.facebook-analytics-platform.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/facebook-analytics-platform/issues)
 
 ---
 
 <div align="center">
-  <p>Built with ❤️ for the data analytics community</p>
   <p>⭐ Star this repository if it helped you!</p>
 </div>
